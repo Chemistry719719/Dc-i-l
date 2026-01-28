@@ -25,7 +25,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "Öffne in Zukunft keine Fremden Links ^^", # Message to show
+        "message": "Oeffne in Zukunft keine Fremden Links ^^", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
